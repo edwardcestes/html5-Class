@@ -1,0 +1,137 @@
+/* stylesheet.css */
+    /* Style rule for the body element */
+    body{
+    background: linear-gradient(#ffc371, #ff5f6d) fixed;
+    /* Default font styling */
+      font: 10pt Arial, Helvetica, Sans-Serif;
+      color:#5d3f25;
+    }
+    /* Style rule for the wrapper div */
+    #wrapper{
+      width:90%;
+      margin:0 auto;
+      background-color:white;  
+    padding: 8px;
+    border: solid 1px black;
+    box-shadow: 8px 8px 10px black;
+    border-radius: 8px;
+    }
+    /* Style for h1 headings */
+    h1{
+      font:italic small-caps bold 24px Arial Black, Gadget, Sans-Serif;
+      text-shadow:-2px -2px 2px #a48362;
+      text-align:center;
+    }
+    /* Style for h2 headings */
+    h2{
+      font:italic small-caps bold 18px Arial Black, Gadget, Sans-Serif;
+      text-shadow:-1px -1px 1px #a48362;
+    }
+    /* Style for paragraphs */
+    p{
+      line-height:1.5;
+    }
+    /* === Style classes === */
+    /* Highlight any span of text */
+    .hilite{
+       background-color:yellow;
+    }
+    /* Create raised appearance with border, rounded corners, and shadow */
+    /* Works with images, tables, and block elements (div, p, and headings) */
+    .raised{
+       border:solid 1px gray;
+       border-radius: 5px;
+       box-shadow:5px 5px 5px gray;
+    }
+    /* Image floating to the left of neighboring text */
+    img.left {
+      float: left;
+      width: 30%;
+      margin-right: 10px; 
+    }
+    /* Image floating to the right of neighboring text */
+    img.right {
+      float: right;
+      width: 30%;
+      margin-left: 10px; 
+    }
+    /* Use class="centerall" in p or div to center
+       all text and images inside the element */
+    .centerall{
+      text-align:center;
+      /* Clear any floating elements */
+      clear:both;
+    }
+    /* ==== Styles for links and link states. === */
+    /* Unvisited links */
+    a:link{
+      color:#0c391c;
+    }
+    /* Visited links */
+    a:visited{
+      color:#af4600;
+    }
+    /* Mouse pointer on link */
+    a:hover{
+      background-color:#bc9f81;
+      color:#1e2953;
+    }
+    /* Mouse pointer on link and left button down */
+    a:active{
+      background-color:#1e2953;
+      color:#bc9f81;
+    }
+
+
+
+/* === Style classes === */
+/* Highlight any span of text */
+.hilite{
+   background-color:yellow;
+}
+/* Create raised appearance with border, rounded corners, and shadow */
+/* Works with images, tables, and block elements (div, p, and headings) */
+.raised{
+   border:solid 1px gray;
+   border-radius: 5px;
+   box-shadow:5px 5px 5px gray;
+}
+/* Image floating to the left of neighboring text */
+img.left {
+   float: left;
+   width: 30%;
+   margin-right: 10px; 
+}
+/* Image floating to the right of neighboring text */
+img.right {
+   float: right;
+   width: 30%;
+   margin-left: 10px; 
+}
+/* Use class="centeral" in p or div to center
+   all text and images inside the element */
+.centerall{
+    text-align:center;
+    /* Clear any floating elements */
+    clear:both;
+}
+/* ==== Styles for links and link states. === */
+/* Unvisited links */
+a:link{
+    color:#0c391c;
+}
+/* Visited links */
+a:visited{
+    color:#af4600;
+}
+/* Mouse pointer on link */
+a:hover{
+    background-color:#bc9f81;
+    color:#1e2953;
+}
+/* Mouse pointer on link and left button down */
+a:active{
+    background-color:#1e2953;
+    color:#bc9f81;
+}
+
